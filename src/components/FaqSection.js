@@ -1,7 +1,7 @@
 import React from 'react';
 
 //Styled component
-import { Container, Description, Image } from '../styles';
+import { Container } from '../styles';
 import styled from 'styled-components';
 
 const FaqSection = () => {

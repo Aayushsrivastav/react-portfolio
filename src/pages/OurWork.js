@@ -13,21 +13,21 @@ const OurWork = () => {
             <Movie>
                 <h2>The Athlete</h2>
                 <div className="line"></div>
-                <Link>
-                    <img src={athlete} alt="Athlete"/>
+                <Link to="/work/the-athlete">
+                    <img src={athlete} alt="The Athlete"/>
                 </Link>
             </Movie>
             <Movie>
                 <h2>The Racer</h2>
                 <div className="line"></div>
-                <Link>
+                <Link to="/work/the-racer">
                     <img src={theracer} alt="The Racer"/>
                 </Link>
             </Movie>
             <Movie>
                 <h2>Good Times</h2>
                 <div className="line"></div>
-                <Link>
+                <Link to="/work/good-times">
                     <img src={goodtimes} alt="Good Times"/>
                 </Link>
             </Movie>
@@ -53,7 +53,7 @@ const Movie = styled.div`
     }
     img{
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         object-fit: cover;
     }
 `;
